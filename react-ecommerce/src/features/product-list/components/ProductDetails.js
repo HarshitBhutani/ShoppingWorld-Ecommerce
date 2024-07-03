@@ -28,7 +28,7 @@ function classNames(...classes) {
 
 export default function ProductDetails() {
   const [selectedColor, setSelectedColor] = useState(colors[0])
-  const [selectedSize, setSelectedSize] = useState(sizes[2])
+  // const [selectedSize, setSelectedSize] = useState(sizes[2])
   const product = useSelector(selectProductById);
   // const user = useSelector(selectLoggedInUser)
   const items = useSelector(selectItems);
